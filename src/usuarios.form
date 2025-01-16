@@ -83,7 +83,7 @@
                   </component>
                 </children>
               </grid>
-              <component id="aeaa2" class="javax.swing.JList" binding="list1" default-binding="true">
+              <component id="aeaa2" class="javax.swing.JList" binding="listaTodo">
                 <constraints>
                   <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="50"/>
@@ -125,7 +125,7 @@
                       <text value="Stock"/>
                     </properties>
                   </component>
-                  <component id="19e63" class="javax.swing.JList" binding="list3" default-binding="true">
+                  <component id="19e63" class="javax.swing.JList" binding="listNombre20">
                     <constraints>
                       <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
                         <preferred-size width="150" height="50"/>
@@ -133,7 +133,7 @@
                     </constraints>
                     <properties/>
                   </component>
-                  <component id="61826" class="javax.swing.JList" binding="list2" default-binding="true">
+                  <component id="61826" class="javax.swing.JList" binding="listaStock20">
                     <constraints>
                       <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
                         <preferred-size width="150" height="50"/>
