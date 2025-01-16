@@ -12,6 +12,7 @@ public class usuarios extends JFrame {
     private JList listDes;
     private JList listPrecio;
     private JList Stock;
+    private JButton actualizarButton;
 
     public usuarios(){
         setTitle("Usuarios");
