@@ -15,7 +15,7 @@ public class administrador extends JFrame{
     private JTextArea textArea2;
 
     public administrador(){
-        setTitle("adminstrador");
+        setTitle("Administrador");
         setSize(500,500);
         setContentPane(ventana_administrador);
         setVisible(true);
