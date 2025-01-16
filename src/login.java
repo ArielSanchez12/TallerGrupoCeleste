@@ -21,12 +21,9 @@ public class login extends JFrame{
                 String nombre_usuario = textField1.getText();
                 String password = new String(passwordField1.getPassword());
 
-
-
                 if (validarUsuario(nombre_usuario, password)) {
                     JOptionPane.showMessageDialog(null, "Ingresaste con exito");
-                }
-                else {
+                } else {
                     JOptionPane.showMessageDialog(null, "Credenciales incorrectas");
                 }
             }

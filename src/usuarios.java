@@ -4,9 +4,14 @@ public class usuarios extends JFrame {
     private JTabbedPane tabMenor;
     private JPanel panel1;
     private JPanel tabTodo;
-    private JList listaTodo;
     private JList listNombre20;
     private JList listaStock20;
+    private JButton verProductosButton;
+    private JList listID;
+    private JList listNombre;
+    private JList listDes;
+    private JList listPrecio;
+    private JList Stock;
 
     public usuarios(){
         setTitle("Usuarios");
