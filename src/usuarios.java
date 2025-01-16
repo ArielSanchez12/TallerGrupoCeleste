@@ -8,5 +8,10 @@ public class usuarios extends JFrame {
     private JList list3;
     private JList list2;
 
-
+    public usuarios(){
+        setTitle("Usuarios");
+        setSize(500,500);
+        setContentPane(panel1);
+        setVisible(true);
+    }
 }
