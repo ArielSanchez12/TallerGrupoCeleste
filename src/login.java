@@ -1,8 +1,15 @@
 import javax.swing.*;
 
 public class login extends JFrame{
-    private JButton btnLogin;
-    private JTextField txtUser;
-    private JPasswordField txtPassword;
-    private JComboBox comboBox1;
+    private JButton ingresarButton;
+    private JTextField textField1;
+    private JPasswordField passwordField1;
+    private JPanel panelLogin;
+
+    public login(){
+        setTitle("Login");
+        setSize(500,500);
+        setContentPane(panelLogin);
+        setVisible(true);
+    }
 }

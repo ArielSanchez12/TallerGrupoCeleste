@@ -3,6 +3,7 @@ public class Main {
     public static void main(String[] args) {
         //POO
 
+        new login();
         new usuarios();
         //
     }
