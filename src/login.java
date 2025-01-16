@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class login extends JFrame{
     private JButton btnIngreso;
-    private JTextField txtUser;
+    private JTextField txtUsername;
     private JPasswordField txtPassword;
     private JPanel panelLogin;
     private JComboBox comboBox1;
@@ -13,4 +13,5 @@ public class login extends JFrame{
         setContentPane(panelLogin);
         setVisible(true);
     }
+
 }
