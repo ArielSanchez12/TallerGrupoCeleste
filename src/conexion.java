@@ -1,13 +1,15 @@
-
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class conexion {
 
-    private static final String URL = "jdbc:mysql://uwfx3wgrfnj9px2s:x6xJuDOr496wThYiOPUr@bsmvfr83jdr81zezcwxq-mysql.services.clever-cloud.com:3306/bsmvfr83jdr81zezcwxq";
-    private static final String USER = "uwfx3wgrfnj9px2s";
-    private static final String PASSWORD = "x6xJuDOr496wThYiOPUr";
+    String URL = "jdbc:mysql://uwfx3wgrfnj9px2s:x6xJuDOr496wThYiOPUr@bsmvfr83jdr81zezcwxq-mysql.services.clever-cloud.com:3306/bsmvfr83jdr81zezcwxq";
+    String USER = "uwfx3wgrfnj9px2s";
+    String PASSWORD = "x6xJuDOr496wThYiOPUr";
 
-    public static Connection connect() throws SQLException{
+
+    public Connection connect() throws SQLException{
         return DriverManager.getConnection(URL,USER,PASSWORD);
     }
 }
