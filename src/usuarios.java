@@ -103,5 +103,15 @@ public class usuarios extends conexion {
                 }
             }
         });
+        salirButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(salirButton);
+                if (frame != null) {
+                    frame.dispose();
+                }
+                System.exit(0);
+            }
+        });
     }
 }

@@ -24,6 +24,10 @@ public class administrador extends conexion{
     public JButton mostrarListaDeProductosButton;
     public JButton mostrarListaDeUsuariosButton;
     public JPanel Pproductos;
+    private JButton salirButton;
+    private JButton salirButton1;
+    private JButton salirButton2;
+    private JButton salirButton3;
 
     public administrador() {
         agregarProductosButton.addActionListener(new ActionListener() {
@@ -182,6 +186,46 @@ public class administrador extends conexion{
                     ex.printStackTrace();
                     JOptionPane.showMessageDialog(null, "Error en clever cloud");
                 }
+            }
+        });
+        salirButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(salirButton);
+                if (frame != null) {
+                    frame.dispose();
+                }
+                System.exit(0);
+            }
+        });
+        salirButton1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(salirButton);
+                if (frame != null) {
+                    frame.dispose();
+                }
+                System.exit(0);
+            }
+        });
+        salirButton3.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(salirButton);
+                if (frame != null) {
+                    frame.dispose();
+                }
+                System.exit(0);
+            }
+        });
+        salirButton2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(salirButton);
+                if (frame != null) {
+                    frame.dispose();
+                }
+                System.exit(0);
             }
         });
     }
