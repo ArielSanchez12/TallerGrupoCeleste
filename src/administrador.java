@@ -25,8 +25,6 @@ public class administrador extends conexion{
     public JButton mostrarListaDeUsuariosButton;
     public JPanel Pproductos;
 
-
-
     public administrador() {
         agregarProductosButton.addActionListener(new ActionListener() {
             @Override
@@ -187,7 +185,4 @@ public class administrador extends conexion{
             }
         });
     }
-
-
 }
-
